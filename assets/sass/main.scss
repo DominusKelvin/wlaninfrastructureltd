@@ -1,3 +1,28 @@
 @import 'variables';
-@import 'mixins'
+@import 'mixins';
 
+@media (min-width: 992px) {
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+  }
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: $nav-links-color;
+  display: block;
+  font-family: 'Oswald', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  text-decoration: none; 
+  text-transform: uppercase;
+}  
+.wlan-navbar-wrapper {
+  padding: .2rem 0;
+  position: relative;
+  background: linear-gradient(to right, #737373, $brand-color);  
+}
+.wlan-navbar {
+  font-family: 'Oswald' sans-serif !important;
+  background: $primary-color;
+  padding: 1rem 2rem; 
+} 
