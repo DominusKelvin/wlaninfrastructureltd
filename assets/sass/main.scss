@@ -15,7 +15,11 @@
   font-weight: 500;
   text-decoration: none; 
   text-transform: uppercase;
-}  
+} 
+
+.collapse.show {
+    margin-top: 2rem !important;  
+  }
 .wlan-navbar-wrapper {
   padding: .2rem 0;
   position: relative;
