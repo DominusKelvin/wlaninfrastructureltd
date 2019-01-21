@@ -31,6 +31,9 @@
   padding: 1rem 2rem; 
 } 
 
+.hero-container {
+  // margin-top: 4.9rem;
+} 
 .hero {
   height: 410px;   
   background-image: url('../images/hero.jpg');
@@ -42,14 +45,28 @@
 .hero-description {
   background-color: $brand-color;
   padding: 2rem 4rem;
-  font-family: 'EB Garamond' sans-serif !important;
-  h1 {
+  font-family: 'Roboto', sans-serif !important; 
+  h1 { 
     color: $primary-color;
-    font-weight: 700px;  
+    font-weight: 700px;
+    font-size: 33px;  
 
   }
 }
 
 .title {
   font-family: 'Oswald', sans-serif;
+}
+
+.subtitle {
+  font-family: 'Roboto', sans-serif !important; 
+}
+
+.services {
+  padding: 2rem 0;
+}
+
+footer {
+  background-color: $nav-links-color;
+  color: $primary-color;
 }
