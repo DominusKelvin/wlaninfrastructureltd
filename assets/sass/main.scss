@@ -30,3 +30,26 @@
   background: $primary-color;
   padding: 1rem 2rem; 
 } 
+
+.hero {
+  height: 410px;   
+  background-image: url('../images/hero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-description {
+  background-color: $brand-color;
+  padding: 2rem 4rem;
+  font-family: 'EB Garamond' sans-serif !important;
+  h1 {
+    color: $primary-color;
+    font-weight: 700px;  
+
+  }
+}
+
+.title {
+  font-family: 'Oswald', sans-serif;
+}
