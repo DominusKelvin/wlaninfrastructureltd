@@ -8,6 +8,8 @@
   <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto" rel="stylesheet">
   <link rel="stylesheet" href=" assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/photoswipe.css">
+  <link rel="stylesheet" href="assets/css/photoswipe_skin/default-skin.css">
   <link rel="stylesheet" href="assets/css/main.css">
   <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 </head>
@@ -222,12 +224,88 @@
         <p class="subtitle text-center">4 Dayo Martins Close Sagotedo, Eti-Osa Lagos State, Nigeria. Call: <strong>+2348052647101</strong> <br /> <span><i class="fab fa-facebook"></i></span> @areatechservices</p>
       </div>
       <div class="col-md-12 mb-5">
-        
       </div>
     </div>
 
   </section>
   <!-- Success factor Section ends -->
+  <section class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="title text-center mb-3">Gallery</h2>
+        <div class="text-center mb-5">
+          <button class="btn btn-primary photoswipe-btn" id="photoswipe"><i class="fas fa-images"></i> See our works</button>
+
+        </div>
+        <!-- Root element of PhotoSwipe. Must have class pswp. -->
+        <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+  <!-- Background of PhotoSwipe. 
+      It's a separate element as animating opacity is faster than rgba(). -->
+  <div class="pswp__bg"></div>
+
+  <!-- Slides wrapper with overflow:hidden. -->
+  <div class="pswp__scroll-wrap">
+
+      <!-- Container that holds slides. 
+          PhotoSwipe keeps only 3 of them in the DOM to save memory.
+          Don't modify these 3 pswp__item elements, data is added later on. -->
+      <div class="pswp__container">
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+      </div>
+
+      <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+      <div class="pswp__ui pswp__ui--hidden">
+
+          <div class="pswp__top-bar">
+
+              <!--  Controls are self-explanatory. Order can be changed. -->
+
+              <div class="pswp__counter"></div>
+
+              <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+              <button class="pswp__button pswp__button--share" title="Share"></button>
+
+              <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+              <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+              <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+              <!-- element will get class pswp__preloader--active when preloader is running -->
+              <div class="pswp__preloader">
+                  <div class="pswp__preloader__icn">
+                    <div class="pswp__preloader__cut">
+                      <div class="pswp__preloader__donut"></div>
+                    </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+              <div class="pswp__share-tooltip"></div> 
+          </div>
+
+          <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+          </button>
+
+          <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+          </button>
+
+          <div class="pswp__caption">
+              <div class="pswp__caption__center"></div>
+          </div>
+
+          </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
   <footer class="container-fluid p-3">
     <div class="row">
       <div class="col-md-12"><p class="text-center title">&copy; 2018 WLAN Infrastructure LTD.</p></div>
@@ -235,6 +313,8 @@
   </footer>
   <script src="assets/js/jquery.min.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/photoswipe.min.js"></script>
+  <script src="assets/js/photoswipe-ui-default.min.js"></script>
   <script src="assets/js/main.js"></script>
 </body>
 </html>

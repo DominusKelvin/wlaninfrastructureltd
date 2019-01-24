@@ -121,3 +121,15 @@ hr.wlan-hr:after {
   width: 50%;
   height: 50%;
 }
+
+.photoswipe-btn {
+  background-color: $brand-color;
+  border: 1px solid $brand-color;
+  transition: all 500ms;
+  &:hover {
+    background-color: $primary-color;
+    border: 1px solid $brand-color;
+    color: $brand-color;
+    font-weight: 700;
+  }
+}
