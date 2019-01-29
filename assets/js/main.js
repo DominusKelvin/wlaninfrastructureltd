@@ -42,6 +42,11 @@ var openPhotoSwipe = function() {
           src: 'assets/images/new/team2.jpg',
           w: 1024,
           h: 683
+      },
+      {
+          src: 'assets/images/vision.jpg',
+          w: 964,
+          h: 1024
       }
   ];
   
